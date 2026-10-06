@@ -45,5 +45,3 @@ My counts of 6,710 active IT companies in Birmingham, and 100,791 active IT comp
 The B postcode isn't exclusive to Birmingham City. This is because there are towns that have B postcodes but are not part of Birmingham City but are instead part of the Black Country and other surrounding areas. The companies in those towns are included in my count of 6,710 because they have a B postcode.
 
 There are other postcodes in London, for example HA for Harrow and RM for Romford. My count of 100,791 IT companies in London does not include IT companies in these areas because my query looks for companies with postcodes in London Postal District areas.
-
-**Work in Progress**

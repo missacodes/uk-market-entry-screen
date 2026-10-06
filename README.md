@@ -31,6 +31,13 @@ A company is a registered company that has to fulfil requirements that an enterp
 
 All industries. The numbers round to the nearest 5. An enterprise is being counted, not a business.
 
+## Data Quality Tests
+ 
+I have carried out two tests. The first one is in my test_duplicates.py file and it uses DuckDB and pytest to carry out an SQL query on the companies_house.csv file. It looks for company numbers that were duplicated by comparing the number of distinct company numbers to the amount of rows. If these two values are the same, every single company number is different. If there are more rows than company numbers, a company number could have been reused. After this test I ran it and it passed. Meaning every single company number is different.
+ 
+The second test is in my test_dates.py file and it looks for null dates or any dates in the future. This test was also carried out on the companies_house.csv file and it passed, therefore proving that all of the dates are neither null (empty) nor in the future.
+
+
 ## Limitations
 
 My counts of 6,710 active IT companies in Birmingham, and 100,791 active IT companies in London include dormant companies. This is because a company with the status "Active" can still be dormant.
